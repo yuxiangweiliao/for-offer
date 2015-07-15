@@ -1,8 +1,8 @@
-#面试题 23：从上往下打印二叉树
+# 从上往下打印二叉树
 
-##题目：从上往下打印出二叉树的每个结点，同一层的结点按照从左向右的顺序打印。
+## 题目：从上往下打印出二叉树的每个结点，同一层的结点按照从左向右的顺序打印。
 
-###二叉树结点的定义：
+### 二叉树结点的定义：
 
 ```
 public static class BinaryTreeNode {
@@ -12,11 +12,11 @@ public static class BinaryTreeNode {
 }
 ```
 
-###解题思路：
+### 解题思路：
 
 这道题实质是考查树的遍历算法。从上到下打印二叉树的规律：每一次打印一个结点的时候，如果该结点有子结点， 则把该结点的子结点放到一个队列的末尾。接下来到队列的头部取出最早进入队列的结点，重复前面的打印操作，直至队列中所有的结点都被打印出来为止。
 
-###代码实现：
+### 代码实现：
 
 ```
 public class Test23 {
@@ -67,7 +67,6 @@ public class Test23 {
         }
     }
     public static void main(String[] args) {
-
         //       8
         //    /    \
         //   6     10
@@ -138,11 +137,10 @@ public class Test23 {
         // null
         System.out.println("\n");
         printFromToBottom(null);
-
     }
 }
 ```
 
-###运行结果：
+### 运行结果：
 
 ![](images/30.png)

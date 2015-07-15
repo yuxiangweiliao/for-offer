@@ -1,8 +1,8 @@
-#面试题 11：数值的整数次方
+# 数值的整数次方
 
 ![](images/13.png)
 
-###代码实现：
+### 代码实现：
 
 ```
 [java] view plaincopyprint?
@@ -77,6 +77,6 @@ public class Test11 {
     }  
 ```
 
-###运行结果：
+### 运行结果：
 
 ![](images/14.png)

@@ -1,8 +1,8 @@
-#面试题 26：复杂链表的复制  
+# 复杂链表的复制  
 
-##题目：请实现函数 ComplexListNode clone(ComplexListNode head)，复制一个复杂链表。在复杂链表中，每个结点除了有一个 next 域指向下一个结点外，还有一个 sibling 指向链表中的任意结点或者 null。
+## 题目：请实现函数 ComplexListNode clone(ComplexListNode head)，复制一个复杂链表。在复杂链表中，每个结点除了有一个 next 域指向下一个结点外，还有一个 sibling 指向链表中的任意结点或者 null。
 
-###结点结构定义：
+### 结点结构定义：
 
 ```
 public static class ComplexListNode {
@@ -12,7 +12,7 @@ public static class ComplexListNode {
 }
 ```
 
-###解题思路：
+### 解题思路：
 
 图 4.8 是一个含有 5 个结点的复杂链表。图中实线箭头表示 next 指针，虚线箭头表示 sibling 指针。为简单起见，指向 null 的指针没有画出。
 
@@ -32,7 +32,7 @@ public static class ComplexListNode {
 
 ![](images/36.png)
 
-###代码实现：
+### 代码实现：
 
 ```
 public class Test26 {
@@ -241,7 +241,7 @@ public class Test26 {
 }
 ```
 
-###运行结果：
+### 运行结果：
 
 注意：划红线部分是为了区分原链表和复制链表，具体还原见代码注释。
 

@@ -1,8 +1,8 @@
-#面试题 13：在 O（1）时间删除链表结点
+# 在 O（1）时间删除链表结点
 
 ![](images/17.png)
 
-###代码实现：
+### 代码实现：
 
 ```
 [java] view plaincopyprint?
@@ -101,6 +101,6 @@ public class Test13 {
 }  
 ```
 
-###运行结果：
+### 运行结果：
 
 ![](images/18.png)

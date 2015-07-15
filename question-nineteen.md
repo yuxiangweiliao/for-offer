@@ -1,8 +1,8 @@
-#面试题 19：二叉树的镜像
+# 二叉树的镜像
 
-##题目：请完成一个函数，输入一个二叉树，该函数输出它的镜像。
+## 题目：请完成一个函数，输入一个二叉树，该函数输出它的镜像。
 
-###二叉树结点的定义：
+### 二叉树结点的定义：
 
 ```
 /**
@@ -15,11 +15,11 @@ public static class BinaryTreeNode {
 }
 ```
 
-###解题思路：
+### 解题思路：
 
 我们先前序遍历这棵树的每个结点，如果遍历到的结点有子结点，就交换它的两个子结点。当交换完所有非叶子结点的左右子结点之后，就得到了树的镜像。
 
-###代码实现：
+### 代码实现：
 
 ```
 public class Test19 {
@@ -43,13 +43,11 @@ public class Test19 {
             BinaryTreeNode tmp = node.left;
             node.left = node.right;
             node.right = tmp;
-
             // 对结点的左右两个子树进行处理
             mirror(node.left);
             mirror(node.right);
         }
     }
-
     public static void printTree(BinaryTreeNode node) {
         if (node != null) {
             printTree(node.left);
@@ -105,7 +103,6 @@ public class Test19 {
         System.out.println();
         mirror(root2);
         printTree(root2);
-
         // 0
         //  \
         //   2
@@ -130,11 +127,10 @@ public class Test19 {
         System.out.println();
         mirror(root3);
         printTree(root3);
-
     }
 }
 ```
 
-###运行结果：
+### 运行结果：
 
 ![](images/25.png)

@@ -1,8 +1,8 @@
-#面试题 10：二进制中 1 的个数 
+# 二进制中 1 的个数 
 
 ![](images/11.png)
 
-###代码如下，请在 JDK7 及以上版本运行：
+### 代码如下，请在 JDK7 及以上版本运行：
 
 ```
 [java] view plaincopyprint?
@@ -65,6 +65,6 @@ public class Test10 {
 }  
 ```
 
-###运行结果：
+### 运行结果：
 
 ![](images/12.png)

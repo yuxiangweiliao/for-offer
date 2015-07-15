@@ -1,14 +1,14 @@
-# 面试题 45：圆圈中最后剩下的数字(约瑟夫环问题)
+# 圆圈中最后剩下的数字(约瑟夫环问题)
 
-##题目：0, 1, … , n-1 这 n 个数字排成一个圈圈，从数字 0 开始每次从圆圏里删除第 m 个数字。求出这个圈圈里剩下的最后一个数字。
+## 题目：0, 1, … , n-1 这 n 个数字排成一个圈圈，从数字 0 开始每次从圆圏里删除第 m 个数字。求出这个圈圈里剩下的最后一个数字。
 
-###解题思路
+### 解题思路
 
-####第一种：经典的解法， 用环形链表模拟圆圈。 
+#### 第一种：经典的解法， 用环形链表模拟圆圈。 
 
 创建一个总共有 n 个结点的环形链表，然后每次在这个链表中删除第 m 个结点。
 
-###代码实现
+### 代码实现
 
 ```
 public static int lastRemaining(int n, int m) {
@@ -39,7 +39,7 @@ public static int lastRemaining(int n, int m) {
 }
 ```
 
-####第二种：分析法 
+#### 第二种：分析法 
 
 首先我们定义一个关于 n 和 m 的方程町矶时，表示每次在 n 个数字 0，1， … ，n-1中每次删除第 m 个数字最后剩下的数字。
  
@@ -49,7 +49,7 @@ public static int lastRemaining(int n, int m) {
 　　 
 ![](images/63.png)
 
-###代码实现
+### 代码实现
 
 ```
 public static int lastRemaining2(int n, int m) {
@@ -64,7 +64,7 @@ public static int lastRemaining2(int n, int m) {
 }
 ```
 
-###完整代码
+### 完整代码
 
 ```
 import java.util.LinkedList;
@@ -128,6 +128,6 @@ public class Test45 {
 }
 ```
 
-###运行结果
+### 运行结果
 
 ![](images/64.png)

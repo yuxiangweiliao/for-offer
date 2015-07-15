@@ -1,8 +1,8 @@
-#面试题 12：打印 1 到最大的 n 位数
+# 打印 1 到最大的 n 位数
 
 ![](images/15.png)
 
-###代码实现：
+### 代码实现：
 
 ```
 [java] view plaincopyprint?
@@ -118,6 +118,6 @@ public class Test12 {
 }  
 ```
 
-###运行结果：
+### 运行结果：
 
 ![](images/16.png)
